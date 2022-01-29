@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: beige;
+    text-align: center;
+}
+
+header h1{
+    color: red;
+}
+
+header img{
+    border-radius: 150px;
+    width: 300px;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 8px;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+  }
+ul li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+  body, html{
+      height: 100%;
+      margin: 0;
+      font-size: 16px;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      line-height: 1.8 em;
+      color: #666;
+  }
+  
+  .pimg1, .pimg2, .pimg3 {
+      position:relative;
+      opacity: 0.70;
+      background-position:center;
+      background-size:cover;
+      background-reapeat:no-repeat;
+
+
+      background-attachment: fixed;
+  }
+
+  .pimg1{
+      background-image: url('../img/1622NEVERMISSFOOTPRINTSWEBSITEBACKGROUND-01.png');
+      min-height: 100%;
+  }
+
+
+  .pimg2{
+    background-image: url('../img/patagonia-nevermisslogoflip.jpg');
+    min-height: 85%;
+}
+
+
+.pimg3{
+    background-image: url('../img/promowallpaper3.jpg');
+    min-height: 85%;
+}
