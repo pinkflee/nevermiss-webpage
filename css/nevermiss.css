@@ -62,3 +62,20 @@ ul li {
     background-image: url('../img/promowallpaper3.jpg');
     min-height: 85%;
 }
+.slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider .slider-image {
+      background-image:	url('../img/longstick1622\ 2.png');
+      width: auto;
+        height: 200px;
+       background-size: 2950px 200px;
+        animation: slide 100s linear infinite;
+  }
+  
+  @keyframes slide {
+    from {background-position-x: 0px;}
+    to {background-position-x: -2950px}
+  }
